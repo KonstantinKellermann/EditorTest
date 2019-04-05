@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EditorTest.MainPage"
+             Visual="Material">
+    <StackLayout BackgroundColor="WhiteSmoke" Padding="5">
+        <Entry Placeholder="this is an entry"
+               FontSize="Medium"
+               PlaceholderColor="Gray" TextColor="Black" BackgroundColor="Transparent"/>
+        <Editor Placeholder="this is an editor"
+                FontSize="Medium"
+                PlaceholderColor="Gray" TextColor="Black" BackgroundColor="Transparent"/>
+    </StackLayout>
+</ContentPage>
